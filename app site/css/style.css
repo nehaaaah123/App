@@ -1,0 +1,121 @@
+:root{
+--main-bg-color: rgba(22, 22, 23, .8);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+/* .card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 18px;
+}
+.cards{
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+    } */
+.adver{
+    height:70vh;
+   width:800px;
+    overflow-x: hidden;
+    }
+    .items{
+        height:70vh;
+    }
+.watch{
+   
+    display: inline-flex;
+    margin:auto;
+}
+.image{
+    width: 100vw;
+    margin: 19px auto;
+    overflow: hidden;
+    height: 60vh;
+}
+.slider{
+    width: 93vw;
+    margin: 19px auto;
+    overflow: hidden;
+}
+.logo{
+    align-items: center;
+    display: flex;
+  align-items: center;
+}
+.logo img{
+    width: 44px;
+    padding: 0px 81px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:16px;
+    margin: 0 129px;
+    
+}
+
+.unit-copy-wrapper>*.subhead {
+    color: white;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 2px 543px;
+}
+.unit-copy-wrapper h2{
+    color: white;
+    font-size: 56px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 25px 570px;
+}
+.line{
+    background-color: var(--main-bg-color);
+    display: flex;
+    color: white;
+    margin: 0 265px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 35px;
+    height:31px;
+
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(188, 213, 219);
+    font-weight: bolder;
+}
+header{
+    background: black;
+    border: 2px solid rgb(114, 110, 110);
+    font-family: 'Roboto', sans-serif;
+    height: 38px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    background-color: black;
+}
+footer{
+   
+    height: 12vh;
+    background: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+   
+}
